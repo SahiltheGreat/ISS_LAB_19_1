@@ -3,7 +3,7 @@ var showGithubProfile = function() {
     var name = elem.value;
     if(!name)
     {
-        window.alert("Enter a github handle!");
+        window.alert("Enter any GitHub handle!");
     }
     else{
         var link = 'http://github.com/'+name; 
